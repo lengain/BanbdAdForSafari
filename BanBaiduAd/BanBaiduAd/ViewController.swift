@@ -28,7 +28,7 @@ class ViewController: NSViewController {
     }
     
     @IBAction func openStudyPage(_ sender: Any) {
-        NSWorkspace.shared.open(URL.init(string: "https://github.com/lengain/BanBaiduAdForSafari")!)
+        NSWorkspace.shared.open(URL.init(string: "https://github.com/lengain/BanbdAdForSafari")!)
     }
     
 }
