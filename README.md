@@ -8,7 +8,12 @@ Safari浏览器禁止百度广告扩展程序
 - 该扩展程序只是隐藏了百度广告，不联网，不会获取网页搜索信息，账号，密码等私密信息。
 - 该软件开源
 
-下载软件后，打开软件，点击`在设置中打开Safari扩展`，选中该扩展后，打开Safari浏览器插件
+下载地址 https://github.com/lengain/BanbdAdForSafari/releases/
+1.点击最新版本，下载BanBdAd.dmg
+2.打开软件。偏好设置->安全性与隐私中，应打开允许任何来源。      终端开启允许任何来源方法，在终端中输入
+
+      sudo spctl --master-disable
+3.点击`在设置中打开Safari扩展`，选中该扩展后，打开Safari浏览器插件
 
 你也可以查看详细的图文[安装教程](https://github.com/lengain/BanbdAdForSafari/blob/master/Tutorial.md)
 
