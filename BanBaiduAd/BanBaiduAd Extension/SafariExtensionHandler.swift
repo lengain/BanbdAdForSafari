@@ -2,7 +2,7 @@
 //  SafariExtensionHandler.swift
 //  BanBaiduAd Extension
 //
-//  Created by shunlian on 2019/12/26.
+//  Created by lengain on 2019/12/26.
 //  Copyright © 2019 Lengain. All rights reserved.
 //
 

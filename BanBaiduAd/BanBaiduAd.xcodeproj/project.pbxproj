@@ -63,7 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3394959F23B4ACB10097DCC1 /* BanBaiduAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanBaiduAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3394959F23B4ACB10097DCC1 /* 禁止百度广告.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "禁止百度广告.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		339495A223B4ACB10097DCC1 /* BanBaiduAd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BanBaiduAd.entitlements; sourceTree = "<group>"; };
 		339495A423B4ACB10097DCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		339495A723B4ACB10097DCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		339495A023B4ACB10097DCC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3394959F23B4ACB10097DCC1 /* BanBaiduAd.app */,
+				3394959F23B4ACB10097DCC1 /* 禁止百度广告.app */,
 				339495B223B4ACB20097DCC1 /* BanBaiduAdTests.xctest */,
 				339495BD23B4ACB20097DCC1 /* BanBaiduAdUITests.xctest */,
 				339495C823B4ACB20097DCC1 /* BanBaiduAd Extension.appex */,
@@ -217,7 +217,7 @@
 			);
 			name = BanBaiduAd;
 			productName = BanBaiduAd;
-			productReference = 3394959F23B4ACB10097DCC1 /* BanBaiduAd.app */;
+			productReference = 3394959F23B4ACB10097DCC1 /* 禁止百度广告.app */;
 			productType = "com.apple.product-type.application";
 		};
 		339495B123B4ACB20097DCC1 /* BanBaiduAdTests */ = {
@@ -603,7 +603,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBaiduAd;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "禁止百度广告";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -625,7 +625,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBaiduAd;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "禁止百度广告";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

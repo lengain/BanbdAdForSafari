@@ -10,6 +10,8 @@ Safari浏览器禁止百度广告扩展程序
 
 下载软件后，打开软件，点击`在设置中打开Safari扩展`，选中该扩展后，打开Safari浏览器插件
 
+你也可以查看详细的图文[安装教程](https://github.com/lengain/BanbdAdForSafari/blob/master/Tutorial.md)
+
 如有疑问，请提issue或发邮件（lengain@yeah.net）给我
 
 ##卸载
