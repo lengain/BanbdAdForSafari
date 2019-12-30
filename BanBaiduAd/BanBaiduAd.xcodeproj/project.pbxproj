@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		339495A323B4ACB10097DCC1 /* BanBaiduAd.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 339495A223B4ACB10097DCC1 /* BanBaiduAd.entitlements */; };
+		339495A523B4ACB10097DCC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495A423B4ACB10097DCC1 /* AppDelegate.swift */; };
+		339495A823B4ACB10097DCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339495A623B4ACB10097DCC1 /* Main.storyboard */; };
+		339495AA23B4ACB10097DCC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495A923B4ACB10097DCC1 /* ViewController.swift */; };
+		339495AC23B4ACB20097DCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339495AB23B4ACB20097DCC1 /* Assets.xcassets */; };
+		339495B723B4ACB20097DCC1 /* BanBaiduAdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495B623B4ACB20097DCC1 /* BanBaiduAdTests.swift */; };
+		339495C223B4ACB20097DCC1 /* BanBaiduAdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495C123B4ACB20097DCC1 /* BanBaiduAdUITests.swift */; };
+		339495C923B4ACB20097DCC1 /* BanBaiduAd Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 339495C823B4ACB20097DCC1 /* BanBaiduAd Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		339495CE23B4ACB20097DCC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339495CD23B4ACB20097DCC1 /* Cocoa.framework */; };
+		339495D123B4ACB20097DCC1 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495D023B4ACB20097DCC1 /* SafariExtensionHandler.swift */; };
+		339495D323B4ACB30097DCC1 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495D223B4ACB30097DCC1 /* SafariExtensionViewController.swift */; };
+		339495D623B4ACB30097DCC1 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339495D423B4ACB30097DCC1 /* SafariExtensionViewController.xib */; };
+		339495D923B4ACB30097DCC1 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 339495D823B4ACB30097DCC1 /* script.js */; };
+		339495DB23B4ACB30097DCC1 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 339495DA23B4ACB30097DCC1 /* ToolbarItemIcon.pdf */; };
+		339495ED23B5CF250097DCC1 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 339495EC23B5CF250097DCC1 /* style.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		339495B323B4ACB20097DCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3394959723B4ACB10097DCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3394959E23B4ACB10097DCC1;
+			remoteInfo = BanBaiduAd;
+		};
+		339495BE23B4ACB20097DCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3394959723B4ACB10097DCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3394959E23B4ACB10097DCC1;
+			remoteInfo = BanBaiduAd;
+		};
+		339495CA23B4ACB20097DCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3394959723B4ACB10097DCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339495C723B4ACB20097DCC1;
+			remoteInfo = "BanBaiduAd Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		339495E223B4ACB30097DCC1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				339495C923B4ACB20097DCC1 /* BanBaiduAd Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3394959F23B4ACB10097DCC1 /* BanBaiduAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanBaiduAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339495A223B4ACB10097DCC1 /* BanBaiduAd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BanBaiduAd.entitlements; sourceTree = "<group>"; };
+		339495A423B4ACB10097DCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		339495A723B4ACB10097DCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		339495A923B4ACB10097DCC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		339495AB23B4ACB20097DCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339495AD23B4ACB20097DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339495B223B4ACB20097DCC1 /* BanBaiduAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanBaiduAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339495B623B4ACB20097DCC1 /* BanBaiduAdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanBaiduAdTests.swift; sourceTree = "<group>"; };
+		339495B823B4ACB20097DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339495BD23B4ACB20097DCC1 /* BanBaiduAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanBaiduAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339495C123B4ACB20097DCC1 /* BanBaiduAdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanBaiduAdUITests.swift; sourceTree = "<group>"; };
+		339495C323B4ACB20097DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339495C823B4ACB20097DCC1 /* BanBaiduAd Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BanBaiduAd Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339495CD23B4ACB20097DCC1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		339495D023B4ACB20097DCC1 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		339495D223B4ACB30097DCC1 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		339495D523B4ACB30097DCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		339495D723B4ACB30097DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339495D823B4ACB30097DCC1 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		339495DA23B4ACB30097DCC1 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		339495DC23B4ACB30097DCC1 /* BanBaiduAd_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BanBaiduAd_Extension.entitlements; sourceTree = "<group>"; };
+		339495EC23B5CF250097DCC1 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3394959C23B4ACB10097DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339495AF23B4ACB20097DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339495BA23B4ACB20097DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339495C523B4ACB20097DCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339495CE23B4ACB20097DCC1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3394959623B4ACB10097DCC1 = {
+			isa = PBXGroup;
+			children = (
+				339495A123B4ACB10097DCC1 /* BanBaiduAd */,
+				339495B523B4ACB20097DCC1 /* BanBaiduAdTests */,
+				339495C023B4ACB20097DCC1 /* BanBaiduAdUITests */,
+				339495CF23B4ACB20097DCC1 /* BanBaiduAd Extension */,
+				339495CC23B4ACB20097DCC1 /* Frameworks */,
+				339495A023B4ACB10097DCC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		339495A023B4ACB10097DCC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3394959F23B4ACB10097DCC1 /* BanBaiduAd.app */,
+				339495B223B4ACB20097DCC1 /* BanBaiduAdTests.xctest */,
+				339495BD23B4ACB20097DCC1 /* BanBaiduAdUITests.xctest */,
+				339495C823B4ACB20097DCC1 /* BanBaiduAd Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339495A123B4ACB10097DCC1 /* BanBaiduAd */ = {
+			isa = PBXGroup;
+			children = (
+				339495A223B4ACB10097DCC1 /* BanBaiduAd.entitlements */,
+				339495A423B4ACB10097DCC1 /* AppDelegate.swift */,
+				339495A623B4ACB10097DCC1 /* Main.storyboard */,
+				339495A923B4ACB10097DCC1 /* ViewController.swift */,
+				339495AB23B4ACB20097DCC1 /* Assets.xcassets */,
+				339495AD23B4ACB20097DCC1 /* Info.plist */,
+			);
+			path = BanBaiduAd;
+			sourceTree = "<group>";
+		};
+		339495B523B4ACB20097DCC1 /* BanBaiduAdTests */ = {
+			isa = PBXGroup;
+			children = (
+				339495B623B4ACB20097DCC1 /* BanBaiduAdTests.swift */,
+				339495B823B4ACB20097DCC1 /* Info.plist */,
+			);
+			path = BanBaiduAdTests;
+			sourceTree = "<group>";
+		};
+		339495C023B4ACB20097DCC1 /* BanBaiduAdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				339495C123B4ACB20097DCC1 /* BanBaiduAdUITests.swift */,
+				339495C323B4ACB20097DCC1 /* Info.plist */,
+			);
+			path = BanBaiduAdUITests;
+			sourceTree = "<group>";
+		};
+		339495CC23B4ACB20097DCC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				339495CD23B4ACB20097DCC1 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		339495CF23B4ACB20097DCC1 /* BanBaiduAd Extension */ = {
+			isa = PBXGroup;
+			children = (
+				339495D023B4ACB20097DCC1 /* SafariExtensionHandler.swift */,
+				339495D223B4ACB30097DCC1 /* SafariExtensionViewController.swift */,
+				339495D423B4ACB30097DCC1 /* SafariExtensionViewController.xib */,
+				339495D723B4ACB30097DCC1 /* Info.plist */,
+				339495EC23B5CF250097DCC1 /* style.css */,
+				339495D823B4ACB30097DCC1 /* script.js */,
+				339495DA23B4ACB30097DCC1 /* ToolbarItemIcon.pdf */,
+				339495DC23B4ACB30097DCC1 /* BanBaiduAd_Extension.entitlements */,
+			);
+			path = "BanBaiduAd Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3394959E23B4ACB10097DCC1 /* BanBaiduAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339495E323B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBaiduAd" */;
+			buildPhases = (
+				3394959B23B4ACB10097DCC1 /* Sources */,
+				3394959C23B4ACB10097DCC1 /* Frameworks */,
+				3394959D23B4ACB10097DCC1 /* Resources */,
+				339495E223B4ACB30097DCC1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339495CB23B4ACB20097DCC1 /* PBXTargetDependency */,
+			);
+			name = BanBaiduAd;
+			productName = BanBaiduAd;
+			productReference = 3394959F23B4ACB10097DCC1 /* BanBaiduAd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		339495B123B4ACB20097DCC1 /* BanBaiduAdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339495E623B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBaiduAdTests" */;
+			buildPhases = (
+				339495AE23B4ACB20097DCC1 /* Sources */,
+				339495AF23B4ACB20097DCC1 /* Frameworks */,
+				339495B023B4ACB20097DCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339495B423B4ACB20097DCC1 /* PBXTargetDependency */,
+			);
+			name = BanBaiduAdTests;
+			productName = BanBaiduAdTests;
+			productReference = 339495B223B4ACB20097DCC1 /* BanBaiduAdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		339495BC23B4ACB20097DCC1 /* BanBaiduAdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339495E923B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBaiduAdUITests" */;
+			buildPhases = (
+				339495B923B4ACB20097DCC1 /* Sources */,
+				339495BA23B4ACB20097DCC1 /* Frameworks */,
+				339495BB23B4ACB20097DCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339495BF23B4ACB20097DCC1 /* PBXTargetDependency */,
+			);
+			name = BanBaiduAdUITests;
+			productName = BanBaiduAdUITests;
+			productReference = 339495BD23B4ACB20097DCC1 /* BanBaiduAdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		339495C723B4ACB20097DCC1 /* BanBaiduAd Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339495DF23B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBaiduAd Extension" */;
+			buildPhases = (
+				339495C423B4ACB20097DCC1 /* Sources */,
+				339495C523B4ACB20097DCC1 /* Frameworks */,
+				339495C623B4ACB20097DCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BanBaiduAd Extension";
+			productName = "BanBaiduAd Extension";
+			productReference = 339495C823B4ACB20097DCC1 /* BanBaiduAd Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3394959723B4ACB10097DCC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Lengain;
+				TargetAttributes = {
+					3394959E23B4ACB10097DCC1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					339495B123B4ACB20097DCC1 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3394959E23B4ACB10097DCC1;
+					};
+					339495BC23B4ACB20097DCC1 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3394959E23B4ACB10097DCC1;
+					};
+					339495C723B4ACB20097DCC1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3394959A23B4ACB10097DCC1 /* Build configuration list for PBXProject "BanBaiduAd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3394959623B4ACB10097DCC1;
+			productRefGroup = 339495A023B4ACB10097DCC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3394959E23B4ACB10097DCC1 /* BanBaiduAd */,
+				339495B123B4ACB20097DCC1 /* BanBaiduAdTests */,
+				339495BC23B4ACB20097DCC1 /* BanBaiduAdUITests */,
+				339495C723B4ACB20097DCC1 /* BanBaiduAd Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3394959D23B4ACB10097DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339495A323B4ACB10097DCC1 /* BanBaiduAd.entitlements in Resources */,
+				339495AC23B4ACB20097DCC1 /* Assets.xcassets in Resources */,
+				339495A823B4ACB10097DCC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339495B023B4ACB20097DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339495BB23B4ACB20097DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339495C623B4ACB20097DCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339495DB23B4ACB30097DCC1 /* ToolbarItemIcon.pdf in Resources */,
+				339495ED23B5CF250097DCC1 /* style.css in Resources */,
+				339495D623B4ACB30097DCC1 /* SafariExtensionViewController.xib in Resources */,
+				339495D923B4ACB30097DCC1 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3394959B23B4ACB10097DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339495AA23B4ACB10097DCC1 /* ViewController.swift in Sources */,
+				339495A523B4ACB10097DCC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339495AE23B4ACB20097DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339495B723B4ACB20097DCC1 /* BanBaiduAdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339495B923B4ACB20097DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339495C223B4ACB20097DCC1 /* BanBaiduAdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339495C423B4ACB20097DCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339495D323B4ACB30097DCC1 /* SafariExtensionViewController.swift in Sources */,
+				339495D123B4ACB20097DCC1 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339495B423B4ACB20097DCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3394959E23B4ACB10097DCC1 /* BanBaiduAd */;
+			targetProxy = 339495B323B4ACB20097DCC1 /* PBXContainerItemProxy */;
+		};
+		339495BF23B4ACB20097DCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3394959E23B4ACB10097DCC1 /* BanBaiduAd */;
+			targetProxy = 339495BE23B4ACB20097DCC1 /* PBXContainerItemProxy */;
+		};
+		339495CB23B4ACB20097DCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339495C723B4ACB20097DCC1 /* BanBaiduAd Extension */;
+			targetProxy = 339495CA23B4ACB20097DCC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		339495A623B4ACB10097DCC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339495A723B4ACB10097DCC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		339495D423B4ACB30097DCC1 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339495D523B4ACB30097DCC1 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		339495DD23B4ACB30097DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		339495DE23B4ACB30097DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		339495E023B4ACB30097DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BanBaiduAd Extension/BanBaiduAd_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "BanBaiduAd Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lengain.BanBaiduAd-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		339495E123B4ACB30097DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BanBaiduAd Extension/BanBaiduAd_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "BanBaiduAd Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lengain.BanBaiduAd-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		339495E423B4ACB30097DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BanBaiduAd/BanBaiduAd.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = BanBaiduAd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBaiduAd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		339495E523B4ACB30097DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BanBaiduAd/BanBaiduAd.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = BanBaiduAd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBaiduAd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		339495E723B4ACB30097DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				INFOPLIST_FILE = BanBaiduAdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBaiduAdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanBaiduAd.app/Contents/MacOS/BanBaiduAd";
+			};
+			name = Debug;
+		};
+		339495E823B4ACB30097DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				INFOPLIST_FILE = BanBaiduAdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBaiduAdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanBaiduAd.app/Contents/MacOS/BanBaiduAd";
+			};
+			name = Release;
+		};
+		339495EA23B4ACB30097DCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				INFOPLIST_FILE = BanBaiduAdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBaiduAdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BanBaiduAd;
+			};
+			name = Debug;
+		};
+		339495EB23B4ACB30097DCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				INFOPLIST_FILE = BanBaiduAdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBaiduAdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BanBaiduAd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3394959A23B4ACB10097DCC1 /* Build configuration list for PBXProject "BanBaiduAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339495DD23B4ACB30097DCC1 /* Debug */,
+				339495DE23B4ACB30097DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339495DF23B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBaiduAd Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339495E023B4ACB30097DCC1 /* Debug */,
+				339495E123B4ACB30097DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339495E323B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBaiduAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339495E423B4ACB30097DCC1 /* Debug */,
+				339495E523B4ACB30097DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339495E623B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBaiduAdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339495E723B4ACB30097DCC1 /* Debug */,
+				339495E823B4ACB30097DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339495E923B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBaiduAdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339495EA23B4ACB30097DCC1 /* Debug */,
+				339495EB23B4ACB30097DCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3394959723B4ACB10097DCC1 /* Project object */;
+}
