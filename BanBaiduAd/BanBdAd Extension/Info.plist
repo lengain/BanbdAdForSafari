@@ -51,7 +51,7 @@
 			<key>Image</key>
 			<string>ToolbarItemIcon.pdf</string>
 			<key>Label</key>
-			<string>禁止百度广告</string>
+			<string>广告过滤</string>
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
