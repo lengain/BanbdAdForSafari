@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>禁止百度广告扩展</string>
+	<string>广告过滤</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -66,6 +66,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 Lengain. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>此插件可以在浏览百度网页时,禁止百度广告</string>
+	<string>此插件可以在浏览bd网页时,过滤bd广告</string>
 </dict>
 </plist>
