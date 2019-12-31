@@ -1,8 +1,12 @@
 # BanBdAdForSafari
 Safari浏览器过滤百度广告扩展程序，安装后可以实现无广告浏览
+
 ##效果
+
 ![效果图](https://raw.githubusercontent.com/lengain/LengainGraphBed/master/picture/WeChatc5bb9948435d122fd435c36f73fbf98f.png)
+
 ##安装
+
 **安装须知：**
 - Safari浏览器插件必须依赖于提供该插件的软件。即安装软件后，软件中的插件才会出现在Safari浏览器中。因此，删除该软件，该插件会一并被删除。
 - 插件可独立于应用直接在Safari浏览器上运行，使用时无需打开主应用，请放心使用。
@@ -19,6 +23,7 @@ Safari浏览器过滤百度广告扩展程序，安装后可以实现无广告�
 你也可以查看详细的图文[安装教程](https://github.com/lengain/BanbdAdForSafari/blob/master/Tutorial.md)
 
 如有疑问，请提issue或发邮件（lengain@yeah.net）给我
+
 
 ##卸载
 打开应用程序文件夹，删除该应用即可
