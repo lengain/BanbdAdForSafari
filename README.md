@@ -1,6 +1,7 @@
-# BanBaiduAdForSafari
-Safari浏览器禁止百度广告扩展程序
-
+# BanBdAdForSafari
+Safari浏览器过滤百度广告扩展程序，安装后可以实现无广告浏览
+##效果
+![效果图](https://raw.githubusercontent.com/lengain/LengainGraphBed/master/picture/WeChatc5bb9948435d122fd435c36f73fbf98f.png)
 ##安装
 **安装须知：**
 - Safari浏览器插件必须依赖于提供该插件的软件。即安装软件后，软件中的插件才会出现在Safari浏览器中。因此，删除该软件，该插件会一并被删除。
@@ -23,8 +24,10 @@ Safari浏览器禁止百度广告扩展程序
 打开应用程序文件夹，删除该应用即可
 
 ## 友情链接
-Chrome浏览器禁止百度广告插件地址
+Chrome浏览器过滤百度广告插件地址
 https://github.com/unclehking/bdAdfinisher
+
+手机端可使用[简单搜索](http://secr.baidu.com)
 ## 鸣谢
 [unclehking](https://github.com/unclehking)
 ## 证书
