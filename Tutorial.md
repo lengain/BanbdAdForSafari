@@ -14,8 +14,11 @@
 <img src='https://raw.githubusercontent.com/lengain/LengainGraphBed/master/picture/2019-12-30%2017.53.56.gif' width=500>
 
 3.下载后打开App，如下图
-<img src='https://raw.githubusercontent.com/lengain/LengainGraphBed/master/picture/%E6%88%AA%E5%B1%8F2019-12-30%E4%B8%8B%E5%8D%884.03.14.png' width=500>
-也可能遇到无法打开的问题
+
+<img src='https://raw.githubusercontent.com/lengain/LengainGraphBed/master/picture/%E6%88%AA%E5%B1%8F2019-12-30%E4%B8%8B%E5%8D%884.03.14.png' width=510>
+<br />
+也可能遇到无法打开的问题<br />
+
 <img src='https://raw.githubusercontent.com/lengain/LengainGraphBed/master/picture/91577697674_.pic.jpg' width=500>
 此处并非真的是恶意软件，而是该应用未在App Store上架，系统无法判别。
 在系统偏好设置->安全性与隐私中，打开允许任何来源选项后，即可打开App。
@@ -33,5 +36,5 @@
 安装成功！
 赶紧试试吧！
 
-##卸载
+## 卸载
 打开应用程序文件夹，删除该应用即可
