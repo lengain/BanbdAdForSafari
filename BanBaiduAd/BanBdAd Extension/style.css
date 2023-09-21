@@ -1,6 +1,6 @@
 /*HKing 2016-03-10*/
 :root{
-	--bn: none ;
+    --bn: none ;
 }
 /*滚动条*/
 ::-webkit-scrollbar {width: 8px;height:6px;}
@@ -10,21 +10,34 @@
 ::-webkit-scrollbar-thumb:horizontal:hover{background: #7e7e7e}
 
 /*搜索*/
-#content_left{ position: relative; }
+#content_left{ position: relative; float: none !important;}
 #content_left > div[style^="display"]{
-	position: absolute;
-	top: -10000px;
+    position: absolute;
+    top: -10000px;
 }
 .result-op.xpath-log,
 .rrecom-btn-parent,
 .to_tieba{
-	height: 0px !important;
-	overflow: hidden !important;
-	padding: 0px !important;
-	margin: 0px !important;
-	color: #ffffff !important;
+    height: 0px !important;
+    overflow: hidden !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    color: #ffffff !important;
 }
 .result-op.c-container.xpath-log{height: auto !important;color: #000000 !important;}
+
+/* 2021-12-15 */
+body[link] #wrapper #wrapper_wrapper #content_left > div:not(.c-container),
+body[link] #wrapper #wrapper_wrapper #content_left > .result.c-container.new-pmd[id="1"]{
+    display: none !important;
+}
+#top-ad{
+    display: none !important;
+}
+/* 2021-12-15 */
+
+
+
 /*图片*/
 #ec_im_container,#con-ar+div,
 #content_right td > div:nth-child(1),
@@ -35,7 +48,7 @@
 #sider #adCard,
 #sider #wmContainer
 {
-	display: none !important;
+    display: none !important;
 }
 
 /*贴吧*/
@@ -48,8 +61,8 @@
 .firework-wrap,.editor_wrap_bright  + #footer,
 #ec_zwd_ctner,.newsearch .list-footer,
 #j_p_postlist .p_author .icon_relative:not(.j_user_card),
-/* #j_p_postlist .p_author .p_author_name,
-#j_p_postlist .d_post_content_main .p_content_nameplate, */
+#j_p_postlist .p_author .p_author_name,
+#j_p_postlist .d_post_content_main .p_content_nameplate,
 /*音乐*/
 .ad-banner,.nav-banner.nav-ads,.search-result-container .mp3logo,
 .music-foot,.userbar .bd-feedback,.userbar .bd-feedback + .line,
@@ -69,6 +82,7 @@
 /*文库*/
 #fengchaoad,.baichuan-slot,#docBubble,.mod.lastcell-dialog,.search-aside-adWrap,.search-aside-newadWrap,.mod.tousu,
 #doc #wkad5,
+.search-result-list-wrap .fc-first-result-wrap,.base-layout-content .base-layout-content-right,.bottom-right-dsp-ad-wrap,  /* 2021-12-15 */
 /*新闻*/
 #ecomAdDiv_3,#ecomAdDiv_1,#gotoPage,#rs,.wrapper_l #foot,
 /*知道日报*/
@@ -97,18 +111,18 @@
 #union-qbbanner,.union-sug-wrap + div.leftnest,
 /*home*/
 #ftCon{
-	display: none !important;
-	height: 0px;
-	overflow: hidden;
+    display: none !important;
+    height: 0px;
+    overflow: hidden;
 }
 /*贴吧*/
 #pb_adbanner,
 /*手机版*/
 .ec_wise_ad{position: absolute;top: -999999px;}
 #thread_list > li[class^="thread_top_list_folder"]{
-	display: block !important;
-	height: auto !important;
-	overflow: auto !important;
+    display: block !important;
+    height: auto !important;
+    overflow: auto !important;
 }
 
 /*音乐播放器*/
@@ -116,7 +130,7 @@
 #userBar .feedback, #userBar .feedback + .separator,
 #skin-shape + div,
 .column1 .m-client-product,.mbox #toptip{
-	display: var(--bn) !important;
+    display: var(--bn) !important;
 }
 #lrcCol{right:0px !important;-webkit-user-select:none;}
 .main-wrapper > .mb-layout-bd.column2{margin-right: -160px !important;}
@@ -126,14 +140,14 @@
 #lrcCol .link-wrapper{display: none;}
 /*歌词全屏模式下样式*/
 :-webkit-full-screen{
-	position: fixed;
-	width: 100% !important;
-	height: 100%;
-	z-index: 998;
-	top: 0;
-	left: 0;
-	background: #ffffff !important;
-	text-align: center;
+    position: fixed;
+    width: 100% !important;
+    height: 100%;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    background: #ffffff !important;
+    text-align: center;
 }
 #lrcCol .lrc-wrapper{bottom: 0 !important;}
 :-webkit-full-screen .ui-resizable{display: none;}
@@ -141,37 +155,37 @@
 :-webkit-full-screen .lrc-wrapper{font-size: 18px !important;background: transparent !important;}
 :-webkit-full-screen > *{z-index: 98 !important;}
 :-webkit-full-screen > .link-wrapper{
-	display: block !important;
-	width: 120% !important;
-	height: 120% !important;
-	z-index: 8 !important;
-	top: -10%;
-	left: -10%;
+    display: block !important;
+    width: 120% !important;
+    height: 120% !important;
+    z-index: 8 !important;
+    top: -10%;
+    left: -10%;
 }
 :-webkit-full-screen > .link-wrapper img{
-	width: 200%;
-	height: 200%;
-	-webkit-filter: blur(50px);
-	top: -50%;
-	left: -50%;
+    width: 200%;
+    height: 200%;
+    -webkit-filter: blur(50px);
+    top: -50%;
+    left: -50%;
 }
 :-webkit-full-screen li{
-	color: #ffffff !important;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-	line-height: 40px !important;
-	text-align: center !important;
+    color: #ffffff !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    line-height: 40px !important;
+    text-align: center !important;
 }
 :-webkit-full-screen li.ui-lrc-current{
-	font-size: 20px !important;
-	font-weight: bold !important;
-	line-height: 60px !important;
-	color: #00ff00 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    line-height: 60px !important;
+    color: #00ff00 !important;
 }
 
 /*贴吧*/
 .p_postlist > div#j_p_postlist{
-	height: auto !important;
-	display: block !important;
+    height: auto !important;
+    display: block !important;
 }
 
 :-webkit-full-screen .lrc-wrapper::-webkit-scrollbar {width: 0px;height:0px;}
