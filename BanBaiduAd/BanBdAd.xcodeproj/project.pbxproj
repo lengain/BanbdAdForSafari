@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,7 @@
 		339495A823B4ACB10097DCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339495A623B4ACB10097DCC1 /* Main.storyboard */; };
 		339495AA23B4ACB10097DCC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495A923B4ACB10097DCC1 /* ViewController.swift */; };
 		339495AC23B4ACB20097DCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339495AB23B4ACB20097DCC1 /* Assets.xcassets */; };
-		339495B723B4ACB20097DCC1 /* BanBdAdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495B623B4ACB20097DCC1 /* BanBdAdTests.swift */; };
-		339495C223B4ACB20097DCC1 /* BanBdAdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495C123B4ACB20097DCC1 /* BanBdAdUITests.swift */; };
-		339495C923B4ACB20097DCC1 /* BanBdAd Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 339495C823B4ACB20097DCC1 /* BanBdAd Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		339495C923B4ACB20097DCC1 /* BanBdAd Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 339495C823B4ACB20097DCC1 /* BanBdAd Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		339495CE23B4ACB20097DCC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339495CD23B4ACB20097DCC1 /* Cocoa.framework */; };
 		339495D123B4ACB20097DCC1 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495D023B4ACB20097DCC1 /* SafariExtensionHandler.swift */; };
 		339495D323B4ACB30097DCC1 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339495D223B4ACB30097DCC1 /* SafariExtensionViewController.swift */; };
@@ -25,20 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		339495B323B4ACB20097DCC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3394959723B4ACB10097DCC1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3394959E23B4ACB10097DCC1;
-			remoteInfo = BanBaiduAd;
-		};
-		339495BE23B4ACB20097DCC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3394959723B4ACB10097DCC1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3394959E23B4ACB10097DCC1;
-			remoteInfo = BanBaiduAd;
-		};
 		339495CA23B4ACB20097DCC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3394959723B4ACB10097DCC1 /* Project object */;
@@ -49,15 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		339495E223B4ACB30097DCC1 /* Embed App Extensions */ = {
+		339495E223B4ACB30097DCC1 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				339495C923B4ACB20097DCC1 /* BanBdAd Extension.appex in Embed App Extensions */,
+				339495C923B4ACB20097DCC1 /* BanBdAd Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -70,10 +54,8 @@
 		339495A923B4ACB10097DCC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		339495AB23B4ACB20097DCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		339495AD23B4ACB20097DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		339495B223B4ACB20097DCC1 /* BanBdAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanBdAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		339495B623B4ACB20097DCC1 /* BanBdAdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanBdAdTests.swift; sourceTree = "<group>"; };
 		339495B823B4ACB20097DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		339495BD23B4ACB20097DCC1 /* BanBdAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanBdAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		339495C123B4ACB20097DCC1 /* BanBdAdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanBdAdUITests.swift; sourceTree = "<group>"; };
 		339495C323B4ACB20097DCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		339495C823B4ACB20097DCC1 /* BanBdAd Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BanBdAd Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,20 +72,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		3394959C23B4ACB10097DCC1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		339495AF23B4ACB20097DCC1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		339495BA23B4ACB20097DCC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				3394959F23B4ACB10097DCC1 /* 广告过滤.app */,
-				339495B223B4ACB20097DCC1 /* BanBdAdTests.xctest */,
-				339495BD23B4ACB20097DCC1 /* BanBdAdUITests.xctest */,
 				339495C823B4ACB20097DCC1 /* BanBdAd Extension.appex */,
 			);
 			name = Products;
@@ -208,7 +174,7 @@
 				3394959B23B4ACB10097DCC1 /* Sources */,
 				3394959C23B4ACB10097DCC1 /* Frameworks */,
 				3394959D23B4ACB10097DCC1 /* Resources */,
-				339495E223B4ACB30097DCC1 /* Embed App Extensions */,
+				339495E223B4ACB30097DCC1 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -219,42 +185,6 @@
 			productName = BanBaiduAd;
 			productReference = 3394959F23B4ACB10097DCC1 /* 广告过滤.app */;
 			productType = "com.apple.product-type.application";
-		};
-		339495B123B4ACB20097DCC1 /* BanBdAdTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 339495E623B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBdAdTests" */;
-			buildPhases = (
-				339495AE23B4ACB20097DCC1 /* Sources */,
-				339495AF23B4ACB20097DCC1 /* Frameworks */,
-				339495B023B4ACB20097DCC1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				339495B423B4ACB20097DCC1 /* PBXTargetDependency */,
-			);
-			name = BanBdAdTests;
-			productName = BanBaiduAdTests;
-			productReference = 339495B223B4ACB20097DCC1 /* BanBdAdTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		339495BC23B4ACB20097DCC1 /* BanBdAdUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 339495E923B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBdAdUITests" */;
-			buildPhases = (
-				339495B923B4ACB20097DCC1 /* Sources */,
-				339495BA23B4ACB20097DCC1 /* Frameworks */,
-				339495BB23B4ACB20097DCC1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				339495BF23B4ACB20097DCC1 /* PBXTargetDependency */,
-			);
-			name = BanBdAdUITests;
-			productName = BanBaiduAdUITests;
-			productReference = 339495BD23B4ACB20097DCC1 /* BanBdAdUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		339495C723B4ACB20097DCC1 /* BanBdAd Extension */ = {
 			isa = PBXNativeTarget;
@@ -279,20 +209,13 @@
 		3394959723B4ACB10097DCC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1530;
 				ORGANIZATIONNAME = Lengain;
 				TargetAttributes = {
 					3394959E23B4ACB10097DCC1 = {
 						CreatedOnToolsVersion = 11.3;
-					};
-					339495B123B4ACB20097DCC1 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 3394959E23B4ACB10097DCC1;
-					};
-					339495BC23B4ACB20097DCC1 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 3394959E23B4ACB10097DCC1;
 					};
 					339495C723B4ACB20097DCC1 = {
 						CreatedOnToolsVersion = 11.3;
@@ -313,8 +236,6 @@
 			projectRoot = "";
 			targets = (
 				3394959E23B4ACB10097DCC1 /* BanBdAd */,
-				339495B123B4ACB20097DCC1 /* BanBdAdTests */,
-				339495BC23B4ACB20097DCC1 /* BanBdAdUITests */,
 				339495C723B4ACB20097DCC1 /* BanBdAd Extension */,
 			);
 		};
@@ -328,20 +249,6 @@
 				339495A323B4ACB10097DCC1 /* BanBdAd.entitlements in Resources */,
 				339495AC23B4ACB20097DCC1 /* Assets.xcassets in Resources */,
 				339495A823B4ACB10097DCC1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		339495B023B4ACB20097DCC1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		339495BB23B4ACB20097DCC1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,22 +275,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		339495AE23B4ACB20097DCC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				339495B723B4ACB20097DCC1 /* BanBdAdTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		339495B923B4ACB20097DCC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				339495C223B4ACB20097DCC1 /* BanBdAdUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		339495C423B4ACB20097DCC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,16 +287,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		339495B423B4ACB20097DCC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3394959E23B4ACB10097DCC1 /* BanBdAd */;
-			targetProxy = 339495B323B4ACB20097DCC1 /* PBXContainerItemProxy */;
-		};
-		339495BF23B4ACB20097DCC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3394959E23B4ACB10097DCC1 /* BanBdAd */;
-			targetProxy = 339495BE23B4ACB20097DCC1 /* PBXContainerItemProxy */;
-		};
 		339495CB23B4ACB20097DCC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 339495C723B4ACB20097DCC1 /* BanBdAd Extension */;
@@ -459,6 +340,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -466,9 +348,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -483,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -519,6 +403,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -526,9 +411,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -537,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -552,6 +439,7 @@
 				CODE_SIGN_ENTITLEMENTS = "BanBdAd Extension/BanBdAd_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2LM2HK4U8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "BanBdAd Extension/Info.plist";
@@ -560,7 +448,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lengain.BanBdAd-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -574,6 +462,7 @@
 				CODE_SIGN_ENTITLEMENTS = "BanBdAd Extension/BanBdAd_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2LM2HK4U8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "BanBdAd Extension/Info.plist";
@@ -582,7 +471,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lengain.BanBdAd-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -600,6 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2LM2HK4U8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = BanBdAd/Info.plist;
@@ -607,8 +497,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 1.0.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBdAd;
 				PRODUCT_NAME = "广告过滤";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -626,6 +516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2LM2HK4U8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = BanBdAd/Info.plist;
@@ -633,96 +524,12 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 1.0.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBdAd;
 				PRODUCT_NAME = "广告过滤";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		339495E723B4ACB30097DCC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2LM2HK4U8X;
-				INFOPLIST_FILE = BanBdAdTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBdAdTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanBdAd.app/Contents/MacOS/BanBdAd";
-			};
-			name = Debug;
-		};
-		339495E823B4ACB30097DCC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2LM2HK4U8X;
-				INFOPLIST_FILE = BanBdAdTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBdAdTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanBdAd.app/Contents/MacOS/BanBdAd";
-			};
-			name = Release;
-		};
-		339495EA23B4ACB30097DCC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2LM2HK4U8X;
-				INFOPLIST_FILE = BanBdAdUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBdAdUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = BanBdAd;
-			};
-			name = Debug;
-		};
-		339495EB23B4ACB30097DCC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2LM2HK4U8X;
-				INFOPLIST_FILE = BanBdAdUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lengain.BanBdAdUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = BanBdAd;
 			};
 			name = Release;
 		};
@@ -752,24 +559,6 @@
 			buildConfigurations = (
 				339495E423B4ACB30097DCC1 /* Debug */,
 				339495E523B4ACB30097DCC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		339495E623B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBdAdTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				339495E723B4ACB30097DCC1 /* Debug */,
-				339495E823B4ACB30097DCC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		339495E923B4ACB30097DCC1 /* Build configuration list for PBXNativeTarget "BanBdAdUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				339495EA23B4ACB30097DCC1 /* Debug */,
-				339495EB23B4ACB30097DCC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
