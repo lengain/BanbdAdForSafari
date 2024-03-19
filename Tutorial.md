@@ -33,8 +33,10 @@
 <img src='https://raw.githubusercontent.com/lengain/LengainGraphBed/master/picture/20191230160818.png' width=500>
 选中禁止百度广告的扩展，此时查看Safari浏览器导航栏上会出现下图图标
 <img src='https://raw.githubusercontent.com/lengain/LengainGraphBed/master/picture/WeChat380cf633771e4931491037193e1abe57.png' width=500>
-安装成功！
-赶紧试试吧！
+点击图标，如果弹出选项框，选择"在此网站上始终允许"
+<img width="1025" alt="截屏2024-03-19 12 19 00" src="https://github.com/lengain/BanbdAdForSafari/assets/9276826/a787e096-18f9-4d2d-8c7b-b549c597aa76">
+此时安装成功！
+赶紧搜索试试吧！
 
 ## 卸载
 打开应用程序文件夹，删除该应用即可
